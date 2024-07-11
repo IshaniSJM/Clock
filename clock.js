@@ -11,7 +11,7 @@ const updateTime = () =>
 
     let secToDeg = (date.getSeconds() / 60) * 360;
 
-    // let minToDeg = (date.getMinutes() / 60) * 360;
+    //let minToDeg = (date.getMinutes() / 60) * 360;
     let minToDeg = (((date.getMinutes() * 60) + (date.getSeconds())) / 3600) * 360;
 
     //let hourToDeg = (date.getHours() / 12) * 360;
