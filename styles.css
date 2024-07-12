@@ -27,8 +27,8 @@ body
 /* Dark Mode*/
 body.dark
 {
-    --primary-color: #121212;
-    --white-color: #484848;
+    --primary-color: #242424;
+    --white-color: #121212;
     --black-color: rgb(255, 255, 0);
     --red-color: red;
     --shadow-color: rgb(0, 0, 0);
