@@ -29,9 +29,9 @@ body.dark
 {
     --primary-color: #121212;
     --white-color: #484848;
-    --black-color: rgba(255, 255, 0, 0.75);
+    --black-color: rgb(255, 255, 0);
     --red-color: red;
-    --shadow-color: rgb(255, 255, 255);
+    --shadow-color: rgb(0, 0, 0);
 }
 
 .darkMode
