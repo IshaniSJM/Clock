@@ -115,14 +115,12 @@ body.dark
     transform-origin: bottom;
 }
 
-
 .hand.sec
 {
     height: 150px;
     width: 4px;
     background: var(--red-color);
 }
-
 
 .hand.min
 {
