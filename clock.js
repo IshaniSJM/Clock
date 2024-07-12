@@ -36,4 +36,4 @@ darkMode.addEventListener("click", () =>
     // Toggle "darkMode" class
     body.classList.toggle("dark");
 })
-//
+/* By Ishani Sadagopan Jeyaram Malismitha */
