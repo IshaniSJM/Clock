@@ -86,7 +86,7 @@ body.dark
     color: var(--black-color);
 }
 
-.container .indicator
+.container .hands
 {
     position: absolute;
     height: 10px;
@@ -95,7 +95,7 @@ body.dark
     justify-content: center;
 }
 
-.indicator::before
+.hands::before
 {
     content: "";
     position: absolute;
@@ -107,7 +107,7 @@ body.dark
     border: 4px solid var(--red-color);
 }
 
-.indicator .hand
+.hands .hand
 {
     position: absolute;
     bottom: 0;
