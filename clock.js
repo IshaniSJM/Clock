@@ -9,7 +9,8 @@ const updateTime = () =>
 
     let date = new Date();
 
-    let secToDeg = (date.getSeconds() / 60) * 360;
+    //let secToDeg = (date.getSeconds() / 60) * 360;
+    let secToDeg = (((date.getSeconds() * 1000) + (date.getMilliseconds())) / 60000) * 360;
 
     //let minToDeg = (date.getMinutes() / 60) * 360;
     let minToDeg = (((date.getMinutes() * 60) + (date.getSeconds())) / 3600) * 360;
@@ -24,7 +25,7 @@ const updateTime = () =>
     hourHand.style.transform = `rotate(${hourToDeg}deg)`;
 }
 
-setInterval(updateTime, 1000);
+setInterval(updateTime, 1);
 
 updateTime();
 

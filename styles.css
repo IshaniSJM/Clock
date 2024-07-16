@@ -22,10 +22,10 @@ body
     align-items: center;
     justify-content: center;
     background: var(--primary-color);
-    transition: color 1s, background 1s, box-shadow 1s, border 1s;
+    transition: color 2s, background 2s, box-shadow 2s, border 2s;
 }
 
-/* Dark Mode*/
+/* Dark Mode */
 body.dark
 {
     --primary-color: #242424;
@@ -45,7 +45,7 @@ body.dark
     color: var(--white-color);
     background: var(--black-color);
     box-shadow: 0 0px 15px var(--shadow-color);
-    transition: color 1s, background 1s, box-shadow 1s, border 1s;
+    transition: color 2s, background 2s, box-shadow 2s, border 2s;
 }
 
 .container
@@ -61,7 +61,7 @@ body.dark
     display: flex;
     height: 400px;
     width: 400px;
-    border-radius: 30%;
+    border-radius: 50%;
     /* x-axis alignment */
     align-items: center;
     /* y-axis alignment */
@@ -69,7 +69,7 @@ body.dark
     background: var(--white-color);
     box-shadow: 0px 0px 35px var(--shadow-color);
     position: relative;
-    transition: color 1s, background 1s, box-shadow 1s, border 1s;
+    transition: color 2s, background 2s, box-shadow 2s, border 2s;
 }
 
 .clock label
@@ -87,7 +87,7 @@ body.dark
     font-weight: 600;
     transform: rotate(calc(var(--i) * (-360deg / 12)));
     color: var(--black-color);
-    transition: color 1s, background 1s, box-shadow 1s, border 1s;
+    transition: color 2s, background 2s, box-shadow 2s, border 2s;
 }
 
 .container .hands
@@ -109,7 +109,7 @@ body.dark
     z-index: 100;
     background: var(--black-color);
     border: 4px solid var(--red-color);
-    transition: color 1s, background 1s, box-shadow 1s, border 1s;
+    transition: color 2s, background 2s, box-shadow 2s, border 2s;
 }
 
 .hands .hand
@@ -125,7 +125,7 @@ body.dark
     height: 150px;
     width: 4px;
     background: var(--red-color);
-    transition: color 1s, background 1s, box-shadow 1s, border 1s;
+    transition: color 2s, background 2s, box-shadow 2s, border 2s;
 }
 
 .hand.min
@@ -133,7 +133,7 @@ body.dark
     height: 120px;
     width: 8px;
     background: var(--black-color);
-    transition: color 1s, background 1s, box-shadow 1s, border 1s;
+    transition: color 2s, background 2s, box-shadow 2s, border 2s;
 }
 
 .hand.hour
@@ -141,6 +141,6 @@ body.dark
     height: 100px;
     width: 8px;
     background: var(--black-color);
-    transition: color 1s, background 1s, box-shadow 1s, border 1s;
+    transition: color 2s, background 2s, box-shadow 2s, border 2s;
 }
 /* By Ishani Sadagopan Jeyaram Malismitha */
